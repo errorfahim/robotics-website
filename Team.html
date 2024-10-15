@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ikigai</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        /* Navbar styles */
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        /* Main content */
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .person {
+            background-color: #fff;
+            margin: 20px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        .person img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        .person h2 {
+            font-size: 1.5em;
+            margin: 10px 0 5px;
+        }
+        .person p {
+            margin: 5px 0;
+            color: #666;
+        }
+        /* Layout for the team members */
+        .row {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        .row:first-child .person {
+            flex: 1 1 100%;
+        }
+        .row:nth-child(2) .person,
+        .row:nth-child(3) .person {
+            flex: 1 1 45%;
+            max-width: 45%;
+        }
+        .row img {
+            max-width: 100%;
+            height: auto;
+        }
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .row:nth-child(2) .person,
+            .row:nth-child(3) .person {
+                flex: 1 1 100%;
+                max-width: 100%;
+            }
+        }
+        /* Footer styles */
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="file:///E:/Robotics%20Project/Main%20Page.html">Home</a>
+        <a href="#file:///E:/Robotics%20Project/Team.html">Team</a>
+        <a href="#services">Weekly Update</a>
+        <a href="#projects">Literature Review</a>
+        <a href="#blog">Components Details</a>
+
+    </div>
+
+    <!-- Main content -->
+    <div class="content">
+        <h1>Team</h1>
+        <p></p>
+    </div>
+    <div class="container">
+        <!-- First Row - 1 person -->
+        <div class="row">
+            <div class="person">
+                <img src="Shidujaman.png" alt="Person 1">
+                <h2>Mohammad Shidujaman, Phd</h2>
+                <p>Assistant Professor</p>
+                <p>Department of Computer Science & Engineering</p>
+                <p>Independent University, Bangladesh</p>
+                <p>Supervisor of Project Ikigai</p>
+                <style>
+                .profile-links {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 50px;
+                }
+                .profile-links a {
+                    margin: 0 15px;
+                    text-decoration: none;
+                }
+                .profile-links img {
+                    width: 50px;
+                    height: 50px;
+                    transition: transform 0.3s ease;
+                }
+                .profile-links img:hover {
+                    transform: scale(1.1);
+                }
+            </style>
+            <div class="profile-links">
+                <!-- Mail -->
+                <a href="shidujaman@iub.edu.bd" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Mail Logo">
+                </a>
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/mohammad-shidujaman-phd-104a2848/?trk=public_profile_browsemap&originalSubdomain=bd" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Logo">
+                </a>
+                <!-- ResearchGate -->
+                <a href="https://www.researchgate.net/profile/Example-Profile" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ResearchGate_icon_SVG.svg" alt="ResearchGate Logo">
+                </a>
+                <!-- GitHub -->
+                <a href="https://github.com/exampleprofile" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Logo">
+                </a>
+            </div>
+            </div>
+        </div>
+        <!-- Second Row - 2 persons -->
+        <div class="row">
+            <div class="person">
+                <img src="Hasib.jpg" alt="Person 2">
+                <h2>Hasibul Hasan</h2>
+                <p>Student ID:2022347</p>
+                <p>Department of Computer Science & Engineering</p>
+                <p>Independent University, Bangladesh</p>
+                <P>Team Lead:Project Ikigai</P>
+        
+                <style>
+                    .profile-links {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 50px;
+                    }
+                    .profile-links a {
+                        margin: 0 15px;
+                        text-decoration: none;
+                    }
+                    .profile-links img {
+                        width: 50px;
+                        height: 50px;
+                        transition: transform 0.3s ease;
+                    }
+                    .profile-links img:hover {
+                        transform: scale(1.1);
+                    }
+                </style>
+                 <div class="profile-links">
+                    <!-- Mail -->
+                    <a href="2022347@iub.edu.bd" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Mail Logo">
+                    </a>
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/hasibul-hasan-sium-545a3a24a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Logo">
+                    </a>
+                    <!-- ResearchGate -->
+                    <a href="https://www.researchgate.net/profile/Example-Profile" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ResearchGate_icon_SVG.svg" alt="ResearchGate Logo">
+                    </a>
+                    <!-- GitHub -->
+                    <a href="https://github.com/exampleprofile" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Logo">
+                    </a>
+                </div>
+            </div>
+            <div class="person">
+                <img src="Memo.jpg" alt="Person 3">
+                <h2>Mukut Protim Memo</h2>
+                <p>Student ID:2020086</p>
+                <p>Department of Computer Science & Engineering</p>
+                <p>Independent University, Bangladesh</p>
+                <P>Team Lead:Project Ikigai</P>
+               
+                <style>
+                    .profile-links {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 50px;
+                    }
+                    .profile-links a {
+                        margin: 0 15px;
+                        text-decoration: none;
+                    }
+                    .profile-links img {
+                        width: 50px;
+                        height: 50px;
+                        transition: transform 0.3s ease;
+                    }
+                    .profile-links img:hover {
+                        transform: scale(1.1);
+                    }
+                </style>
+                 <div class="profile-links">
+                    <!-- Mail -->
+                    <a href="2020086@iub.edu.bd" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Mail Logo">
+                    </a>
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/mukut-protim-memo-592811238/?trk=contact-info" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Logo">
+                    </a>
+                    <!-- ResearchGate -->
+                    <a href="https://www.researchgate.net/profile/Example-Profile" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ResearchGate_icon_SVG.svg" alt="ResearchGate Logo">
+                    </a>
+                    <!-- GitHub -->
+                    <a href="https://github.com/exampleprofile" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Third Row - 2 persons -->
+        <div class="row">
+            <div class="person">
+                <img src="Shirsity.jpg" alt="Person 4">
+                <h2>Sristy Roy</h2>
+                <p>Student ID:2022347</p>
+                <p>Department of Computer Science & Engineering</p>
+                <p>Independent University, Bangladesh</p>
+                <P>Team Member:Project Ikigai</P>
+               
+                <style>
+                    .profile-links {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 50px;
+                    }
+                    .profile-links a {
+                        margin: 0 15px;
+                        text-decoration: none;
+                    }
+                    .profile-links img {
+                        width: 50px;
+                        height: 50px;
+                        transition: transform 0.3s ease;
+                    }
+                    .profile-links img:hover {
+                        transform: scale(1.1);
+                    }
+                </style>
+                 <div class="profile-links">
+                    <!-- Mail -->
+                    <a href="2022347@iub.edu.bd" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Mail Logo">
+                    </a>
+                    <!-- LinkedIn -->
+                    <a href="" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Logo">
+                    </a>
+                    <!-- ResearchGate -->
+                    <a href="https://www.researchgate.net/profile/Example-Profile" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ResearchGate_icon_SVG.svg" alt="ResearchGate Logo">
+                    </a>
+                    <!-- GitHub -->
+                    <a href="https://github.com/exampleprofile" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Logo">
+                    </a>
+                </div>
+            </div>
+            <div class="person">
+                <img src="Fahim.jpg" alt="Person 5">
+                <h2>Mostofa Fahim Hasan</h2>
+                <p>Student ID:2220440</p>
+                <p>Department of Computer Science & Engineering</p>
+                <p>Independent University, Bangladesh</p>
+                <P>Team Member:Project Ikigai</P>
+                
+                <style>
+                    .profile-links {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 50px;
+                    }
+                    .profile-links a {
+                        margin: 0 15px;
+                        text-decoration: none;
+                    }
+                    .profile-links img {
+                        width: 50px;
+                        height: 50px;
+                        transition: transform 0.3s ease;
+                    }
+                    .profile-links img:hover {
+                        transform: scale(1.1);
+                    }
+                </style>
+                 <div class="profile-links">
+                    <!-- Mail -->
+                    <a href="2220440@iub.edu.bd" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Mail Logo">
+                    </a>
+                    <!-- LinkedIn -->
+                    <a href="http://www.linkedin.com/in/mostofa-fahim-hasan-15b086240" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Logo">
+                    </a>
+                    <!-- ResearchGate -->
+                    <a href="https://www.researchgate.net/profile/Example-Profile" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/ResearchGate_icon_SVG.svg" alt="ResearchGate Logo">
+                    </a>
+                    <!-- GitHub -->
+                    <a href="https://github.com/exampleprofile" target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 Ikigai. All rights reserved.</p>
+    </div>
+
+</body>
+</html>

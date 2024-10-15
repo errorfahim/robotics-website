@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ikigai</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        /* Navbar styles */
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        /* Main content */
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        /* Footer styles */
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+        .week {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+        .week:hover {
+            background-color: #444;
+        }
+        .content {
+            display: none;
+            padding: 0 15px;
+            background-color: #f1f1f1;
+            border-left: 5px solid #333;
+        }
+        .content p {
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="file:///E:/Robotics%20Project/Main%20Page.html">Home</a>
+        <a href="#about">Team</a>
+        <a href="#services">Weekly Update</a>
+        <a href="#projects">Literature Review</a>
+        <a href="#blog">Components Details</a>
+
+    </div>
+
+    <!-- Main content -->
+    <div class="content">
+        <h1>Ikigai</h1>
+        <p></p>
+        
+    </div>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .week {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+        .week:hover {
+            background-color: #444;
+        }
+        .content {
+            display: none;
+            padding: 0 15px;
+            background-color: #f1f1f1;
+            border-left: 5px solid #333;
+        }
+        .content p {
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+<h1>12 Week Project Plan</h1>
+
+<div class="week" onclick="toggleContent(1)">Week 1: Creating Group and Project Selection</div>
+<div id="content1" class="content">
+    <p>Details about Week 1 activities such as group creation, selecting Mechameru V1 or Emo.</p>
+</div>
+
+<div class="week" onclick="toggleContent(2)">Week 2: Ideation & Submit Project Proposal</div>
+<div id="content2" class="content">
+    <p>Details about ideation and submitting project proposals for the group.</p>
+</div>
+
+<div class="week" onclick="toggleContent(3)">Week 3: Literature Review and Collecting Components</div>
+<div id="content3" class="content">
+    <p>Week 3 focuses on conducting a literature review and collecting necessary project components.</p>
+</div>
+
+<!-- Repeat the above blocks for all 12 weeks -->
+
+<script>
+    function toggleContent(week) {
+        const content = document.getElementById('content' + week);
+        if (content.style.display === "block") {
+            content.style.display = "none";
+        } else {
+            content.style.display = "block";
+        }
+    }
+</script>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 Ikigai. All rights reserved.</p>
+    </div>
+
+</body>
+</html>
